@@ -1,0 +1,88 @@
+/* Style for Search and Button */
+#search_form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#search_form label,
+#search_query,
+#search_button {
+    margin-right: 10px;
+}
+
+/* Style for Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Alternate Row Colors */
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+table th {
+    background-color: #5DB6C7;
+    color: white;
+}
+/* Style for Search Button */
+#search_button {
+    background-color: #0C929D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Hover Effect for Search Button */
+#search_button:hover {
+    background-color: #0A828B;
+    color: white;
+}
+#table-container {
+    text-align: center;
+    margin: auto;
+}
+
+/* Style for Table */
+table {
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;  /* Add this line to center-align text */
+}
+
+/* Style for Table Header */
+th {
+    background-color: #5DB6C7;
+    color: white;
+    padding: 10px;
+    text-align: center;  /* This line ensures the header text is center-aligned */
+}
+
+/* Style for Table Data Cells */
+ td {
+    text-align: center !important;  
+}
+
+/* Style for Table Header */
+th {
+    text-align: center !important;  
+}
+/* Style for Alternate Table Rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
